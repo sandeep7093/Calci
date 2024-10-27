@@ -1,0 +1,81 @@
+.container{
+    background-color: aliceblue;
+    width:600px;
+    height:650px;
+    border-radius: 20px;
+
+}
+
+table{
+    width:500px;
+background-color:black;
+padding: 30px;
+border-radius: 30px;
+margin-left:20px;
+
+
+
+}
+h1{
+    margin-left:230px;
+    margin-top:20px;
+    color:red;
+    font-size: 40px;
+}
+input{
+    width:80px;
+    border-radius:10px;
+    background-color:aliceblue;
+}
+input[value]{
+    font-size: 30px;
+    background-color: aliceblue;
+    margin-bottom:25px;
+    margin-top: 10px;
+    padding: 10px;
+}
+#screen{
+    width:397px;
+    height:50px;
+    border:0.5px solid black;
+    margin-bottom: 19px;
+    
+}
+input[type="text"]{
+    font-size:30px;
+}
+input[type="button"]:hover{
+    background-color: black;
+    color:white;
+
+}
+@media (max-width:600px) {
+    .container{
+        width:100%;
+        height:100%;
+        overflow: hidden;
+        
+    }
+    h1{
+        margin: 0;
+        position: relative
+        ;left:140px;
+        margin-bottom: 20px;
+    }
+    table{
+        margin: 0;
+        width:100%;
+        padding:5px;
+        overflow: hidden;
+
+    }input{
+        width:100%;
+        height:100%;
+    }
+    #screen{
+        width:100%;
+
+    }
+
+    
+}
